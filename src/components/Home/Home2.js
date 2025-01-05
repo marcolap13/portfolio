@@ -1,0 +1,73 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
+function Home2() {
+  return (
+    <Container fluid className="home-about-section text-center" id="about">
+      <Container>
+        <Row className="justify-content-center">
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em", textAlign: "center" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body" style={{ textAlign: "center" }}>
+            I fell in love with technology and innovation, and through my studies and projects, I’ve grown significantly.
+              <br />
+              <br />I am fluent in modern programming languages such as 
+              <i>
+                <b className="purple"> Python, C++ and Javascript.. </b>
+              </i>
+              <br />
+              <br />
+              My fields of interest include developing scalable&nbsp;
+              <i>
+                <b className="purple">digital transformation solutions, optimizing architectures, </b> 
+              </i>
+                 and exploring the transformative power of technologies like
+                <b className="purple"> AI and Blockchain..</b>
+              
+              <br />
+              <br />
+              Whenever possible, I channel my passion into projects that bridge strategy and technology, 
+              utilizing tools like <b className="purple"> Docker and Kubernetes </b>
+            </p>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links d-flex justify-content-center list-unstyled">
+              <li className="social-icons mx-3">
+                <a
+                  href="https://github.com/marcolap13"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons mx-3">
+                <a
+                  href="https://www.linkedin.com/in/lamarco/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Home2;
