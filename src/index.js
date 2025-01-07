@@ -5,7 +5,7 @@ import App from "./App";
 
 
 ReactDOM.render(
-  <BrowserRouter basename="/portfolio">
+  <BrowserRouter basename="/">
     <App />
   </BrowserRouter>,
   document.getElementById('root')
