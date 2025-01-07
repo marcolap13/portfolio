@@ -8,3 +8,12 @@
 1. Installation: `npm install`
 
 2. In the project directory, you can run: `npm start`
+
+
+## 🛠 Build and deploy
+
+1. Make the changes
+
+2. 'npm run build'
+
+3. 'npm run deploy'
