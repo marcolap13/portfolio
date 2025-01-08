@@ -13,25 +13,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body" style={{ textAlign: "center" }}>
-            I fell in love with technology and innovation, and through my studies and projects, I’ve grown significantly.
+              My education and school projects sparked my interest in technology and innovation, which grew even stronger through my professional experiences.
               <br />
-              <br />I am fluent in modern programming languages such as 
+              <br />I am now skilled in modern programming languages such as 
               <i>
-                <b className="purple"> Python, C++ and Javascript.. </b>
+                <b className="purple"> Python, C++ and Javascript. </b>
               </i>
               <br />
               <br />
-              My fields of interest include developing scalable&nbsp;
+              This knowledge has allowed me to explore various areas of technology, including developing scalable
               <i>
-                <b className="purple">digital transformation solutions, optimizing architectures, </b> 
+                <b className="purple"> digital transformation solutions, optimizing system architectures, </b> 
               </i>
-                 and exploring the transformative power of technologies like
-                <b className="purple"> AI and Blockchain..</b>
-              
+              and discovering the potential of technologies like
+              <b className="purple"> AI and Blockchain.</b>
               <br />
               <br />
-              Whenever possible, I channel my passion into projects that bridge strategy and technology, 
-              utilizing tools like <b className="purple"> Docker and Kubernetes </b>
+              I am passionate about working on projects that connect strategy and technology, often using tools like <b className="purple"> Docker and Kubernetes </b> to create efficient and impactful solutions.
             </p>
           </Col>
         </Row>

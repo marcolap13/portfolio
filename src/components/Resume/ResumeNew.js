@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import frenchCV from "../../Assets/CV-LA_Marco.pdf";
+import frenchCV from "../../Assets/Resume-FR.pdf";
 import englishCV from "../../Assets/Resume-EN.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
